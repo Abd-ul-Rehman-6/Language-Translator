@@ -1,0 +1,278 @@
+/* Basic Page Styling */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Container */
+.container {
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 16px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    max-width: 95%;
+    text-align: center;
+}
+
+/* Header */
+.header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: #2575fc;
+}
+.header p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Text Box */
+.text-box {
+    width: 100%;
+    height: 120px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 14px;
+    resize: none;
+    outline: none;
+    transition: border 0.3s ease;
+}
+.text-box:focus {
+    border-color: #2575fc;
+}
+
+/* Buttons */
+.controls {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.btn {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    color: #fff;
+}
+.speak-btn { background: #28a745; }
+.stop-btn { background: #dc3545; }
+.clear-btn { background: #ffc107; color: #333; }
+.save-btn { background: #2575fc; }
+
+.btn:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+/* Voice Settings */
+.voice-settings {
+    margin-top: 20px;
+    text-align: left;
+}
+.voice-settings h3 {
+    margin-bottom: 10px;
+    color: #2575fc;
+}
+.setting-group {
+    margin-bottom: 12px;
+}
+.setting-group label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+.setting-group input[type=range] {
+    width: 100%;
+}
+
+/* Status */
+.status {
+    margin-top: 15px;
+    font-style: italic;
+    color: #555;
+}
+
+/* History */
+.history {
+    margin-top: 20px;
+    text-align: left;
+}
+.history h3 {
+    color: #2575fc;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.history ul {
+    list-style: none;
+    padding: 0;
+    max-height: 120px;
+    overflow-y: auto;
+}
+.history li {
+    background: #f9f9f9;
+    padding: 8px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+    font-size: 13px;
+    border-left: 4px solid #2575fc;
+}
+
+/* Footer */
+.footer {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #888;
+}
+/* Basic Page Styling */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Container */
+.container {
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 16px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    max-width: 95%;
+    text-align: center;
+}
+
+/* Header */
+.header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: #2575fc;
+}
+.header p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Text Box */
+.text-box {
+    width: 100%;
+    height: 120px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 14px;
+    resize: none;
+    outline: none;
+    transition: border 0.3s ease;
+}
+.text-box:focus {
+    border-color: #2575fc;
+}
+
+/* Buttons */
+.controls {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.btn {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    color: #fff;
+}
+.speak-btn { background: #28a745; }
+.stop-btn { background: #dc3545; }
+.clear-btn { background: #ffc107; color: #333; }
+.save-btn { background: #2575fc; }
+
+.btn:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+/* Voice Settings */
+.voice-settings {
+    margin-top: 20px;
+    text-align: left;
+}
+.voice-settings h3 {
+    margin-bottom: 10px;
+    color: #2575fc;
+}
+.setting-group {
+    margin-bottom: 12px;
+}
+.setting-group label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+.setting-group input[type=range] {
+    width: 100%;
+}
+
+/* Status */
+.status {
+    margin-top: 15px;
+    font-style: italic;
+    color: #555;
+}
+
+/* History */
+.history {
+    margin-top: 20px;
+    text-align: left;
+}
+.history h3 {
+    color: #2575fc;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.history ul {
+    list-style: none;
+    padding: 0;
+    max-height: 120px;
+    overflow-y: auto;
+}
+.history li {
+    background: #f9f9f9;
+    padding: 8px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+    font-size: 13px;
+    border-left: 4px solid #2575fc;
+}
+
+/* Footer */
+.footer {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #888;
+}
